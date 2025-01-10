@@ -1,4 +1,4 @@
-# Medical Report Analyzer 🏥📊
+# Medicine Report Analyzer 🏥📊
 
 ## Overview
 Medical Report Analyzer is an advanced AI-powered application designed to simplify and enhance medical report analysis. Leveraging cutting-edge machine learning and natural language processing technologies, this tool provides comprehensive insights, summaries, and intelligent interactions with medical documents.
