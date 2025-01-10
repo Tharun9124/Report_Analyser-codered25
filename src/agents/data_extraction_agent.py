@@ -1,19 +1,32 @@
 import pandas as pd
 
 class DataExtractionAgent:
-    def __init__(self, source_path):
-        self.source_path = source_path
+    def __init__(self, input_file):
+        self.input_file = input_file
 
     def extract(self):
-        """
-        Extract data from the CSV file at the provided source path.
-        """
         try:
-            # Try to read the data using 'utf-8' encoding
-            data = pd.read_csv(self.source_path, encoding='utf-8')
-        except UnicodeDecodeError:
-            # If 'utf-8' fails, fall back to 'ISO-8859-1'
-            print("Encoding error: Retrying with ISO-8859-1 encoding...")
-            data = pd.read_csv(self.source_path, encoding='ISO-8859-1')
+            # Try different encodings and delimiters
+            try:
+                data = pd.read_csv(self.input_file, encoding="utf-8")
+            except UnicodeDecodeError:
+                try:
+                    data = pd.read_csv(self.input_file, encoding="ISO-8859-1")
+                except:
+                    data = pd.read_csv(self.input_file, encoding="latin1")
+            except pd.errors.EmptyDataError:
+                raise Exception("The CSV file is empty")
+            
+            # Basic data validation
+            if data.empty:
+                raise Exception("No data found in the CSV file")
+            
+            # Get basic information about the dataset
+            self.num_rows = len(data)
+            self.num_cols = len(data.columns)
+            self.columns = list(data.columns)
+            
+            return data
 
-        return data
+        except Exception as e:
+            raise Exception(f"Error extracting data: {str(e)}")

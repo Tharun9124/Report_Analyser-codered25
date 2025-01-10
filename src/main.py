@@ -1,13 +1,12 @@
+import json
+import os
 from controller_agent import ControllerAgent
 
 if __name__ == "__main__":
-    # Configuration: Define the file path
-    config = {
-        'source_path': 'data/raw/SuperStoreUS-2015(Orders).csv',
-    }
+    with open("src\\config.json") as f:
+        config = json.load(f)
 
-    # Initialize the controller agent with the configuration
+    os.makedirs(config["output_dir"], exist_ok=True)
+
     controller = ControllerAgent(config)
-
-    # Execute the data analysis and generate plots
     controller.execute()
