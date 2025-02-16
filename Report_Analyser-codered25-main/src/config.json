@@ -1,0 +1,6 @@
+{
+    "input_file": "data/raw/SuperStoreUS-2015(Orders).csv",
+    "output_dir": "output",
+    "google_api_key": "AIzaSyD6iLdx2V9dwGconOcPDNPC2eU9aQu4TxA"
+  }
+  

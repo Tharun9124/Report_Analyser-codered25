@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="100" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect width="200" height="100" fill="#ffffff"/>
+    
+    <!-- Medical Cross -->
+    <rect x="20" y="35" width="30" height="30" fill="#2980b9"/>
+    <rect x="30" y="25" width="10" height="50" fill="#2980b9"/>
+    
+    <!-- Report Icon -->
+    <rect x="70" y="25" width="40" height="50" fill="#3498db"/>
+    <rect x="80" y="35" width="20" height="5" fill="#ffffff"/>
+    <rect x="80" y="45" width="20" height="5" fill="#ffffff"/>
+    <rect x="80" y="55" width="20" height="5" fill="#ffffff"/>
+    
+    <!-- Analysis Lines -->
+    <path d="M130,60 L150,40 L170,55 L190,25" stroke="#2ecc71" stroke-width="3" fill="none"/>
+    
+    <!-- Text -->
+    <text x="100" y="90" font-family="Arial" font-size="12" text-anchor="middle" fill="#2c3e50">
+        Medical Report Analyzer
+    </text>
+</svg>

@@ -1,0 +1,21 @@
+Patient_ID,Age,Gender,Blood_Pressure_Systolic,Blood_Pressure_Diastolic,Heart_Rate,Body_Temperature,Blood_Sugar_Fasting,Cholesterol,BMI,Medical_Condition,Smoking_Status,Exercise_Frequency,Sleep_Hours,Medication
+P001,45,M,128,82,72,98.6,92,185,24.5,Hypertension,Never,3,7,Lisinopril
+P002,62,F,142,88,78,98.4,110,240,28.2,Diabetes Type 2,Former,1,6,Metformin
+P003,35,M,118,75,68,98.8,85,170,22.1,None,Never,4,8,None
+P004,58,F,138,85,75,98.5,130,210,27.8,Hypertension,Current,0,5,Amlodipine
+P005,41,M,122,78,70,98.7,88,175,23.4,None,Never,5,7,None
+P006,69,F,145,90,82,98.9,145,250,30.1,Diabetes Type 2,Never,2,6,Insulin
+P007,52,M,135,84,74,98.5,105,195,26.7,Hypertension,Former,2,7,Losartan
+P008,38,F,120,76,69,98.6,90,165,21.9,None,Never,4,8,None
+P009,64,M,148,92,80,98.8,135,230,29.4,Diabetes Type 2,Current,1,5,Metformin
+P010,47,F,125,80,71,98.7,95,180,24.8,None,Former,3,7,None
+P011,55,M,132,83,73,98.5,100,190,25.6,Hypertension,Never,2,6,Lisinopril
+P012,43,F,121,77,70,98.6,87,172,22.8,None,Never,4,8,None
+P013,61,M,140,86,76,98.7,125,220,28.9,Diabetes Type 2,Former,1,6,Metformin
+P014,39,F,119,75,68,98.8,86,168,21.5,None,Never,5,7,None
+P015,67,M,144,89,81,98.6,140,245,29.8,Hypertension,Current,0,5,Amlodipine
+P016,49,F,126,81,72,98.7,98,182,24.2,None,Never,3,7,None
+P017,59,M,137,85,75,98.5,115,205,27.3,Diabetes Type 2,Former,2,6,Insulin
+P018,42,F,123,79,70,98.6,89,174,23.1,None,Never,4,8,None
+P019,65,M,146,91,79,98.8,138,235,29.6,Hypertension,Current,1,5,Losartan
+P020,44,F,124,80,71,98.7,93,178,24.4,None,Never,3,7,None

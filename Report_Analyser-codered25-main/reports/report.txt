@@ -1,0 +1,6 @@
+Analysis Results:
+{'target_summary': count                 100
+unique                100
+top       DD37Cf93aecA6Dc
+freq                    1
+Name: Customer Id, dtype: object}
